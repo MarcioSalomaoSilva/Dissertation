@@ -1,0 +1,11 @@
+positive explanation ^
+Please read the following scenario carefully and make a decision that best describes or reflects what you would do in a similar situation in a game.^
+moral dilemma //Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempus pellentesque ipsum, eget molestie ligula convallis in. Nullam in magna nunc. Suspendisse erat enim, maximus ac ultrices id, ullamcorper id tortor. Donec pulvinar est mauris, eu rhoncus massa vulputate a. Nunc cursus nulla ac neque maximus semper. Cras non tellus nec justo euismod malesuada ac eu turpis. Etiam euismod gravida tempus. Curabitur varius dolor justo. Etiam vitae pharetra nibh.
+
+Vivamus id nibh aliquet, dictum neque vitae, porta libero. Sed sit amet nisl efficitur, maximus lectus vel, egestas massa. Mauris sed fermentum turpis, eu placerat nibh. Nulla dignissim, dui eu interdum ornare, sem ex facilisis velit, ut luctus purus sapien laoreet massa. Sed blandit elit euismod tortor ornare, sed eleifend turpis interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pretium sollicitudin tellus ac tristique. Nunc in bibendum purus, ac accumsan justo. Aliquam sit amet nisl volutpat turpis auctor efficitur ut non elit. Sed ac nunc vel nibh tincidunt dapibus a sit amet turpis. Donec tincidunt velit id urna eleifend, hendrerit dignissim orci suscipit.
+
+Mauris vulputate semper tellus ac scelerisque. Donec ac convallis nisi, feugiat consequat felis. Aenean hendrerit neque ut feugiat viverra. Cras efficitur non leo in ultricies. Nunc a molestie elit, et tristique tellus. Nulla pellentesque sed sem sit amet ornare. Nunc vehicula lacinia vehicula.
+
+Integer in libero eget magna auctor vestibulum. Morbi sit amet euismod quam, nec eleifend ligula. Pellentesque id metus nec ipsum auctor luctus cursus eget neque. Morbi orci lacus, ultricies at elementum et, dignissim sed eros. Pellentesque eget nunc ornare, fringilla quam id, egestas enim. Curabitur id mollis nibh. Praesent eleifend ligula vel porttitor placerat. Donec volutpat orci a pulvinar pulvinar. Morbi a tellus in ex sodales consequat. Praesent molestie aliquet mollis. Sed ac risus diam. Etiam iaculis ipsum lorem, varius suscipit lacus consequat et. Proin id malesuada elit.^ 
+postive result ^
+Explanation ^

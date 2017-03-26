@@ -1,0 +1,208 @@
+MS6400 - Dissertation // Student Number: 1136114 // Date and Time: 21:54, 07 March, 2017
+
+Participant: 11199
+The participant agreed to the conditions of this study
+
+// Brain Hex Page 1
+
+Question: What Brain Hex did you get?
+Participant didn't answer
+
+Question: Gender:
+Answer: Participant didn't answer
+
+Question: Year of birth:
+Participant didn't answer
+
+Question: I typically play computer or videogames:
+Answer: Participant didn't answer
+
+Question: I would consider myself:
+Answer: Participant didn't answer
+
+Question: I prefer the following way of playing games:
+Answer: Participant didn't answer
+
+Question: My attitude to videogame stories is:
+Answer: Participant didn't answer
+
+// Pre-Regulatory focus
+
+Question: I concentrate on obtaining the best gear in the game before progressing the main quest in order to increase my chances of survival.
+Answer: Participant didn't answer
+
+Question: In a team game I focus my attention on completing the role that my character is best suited to.
+Answer: Participant didn't answer
+
+Question: Fulfilling my Guild duties such as mastering a character or skill is very important to me.
+Answer: Participant didn't answer
+
+Question: In game, I strive to live up to the responsibilities and duties given to me by others.
+Answer: Participant didn't answer
+
+Question: In game, I'm often focused on accomplishing tasks that will support my need for security.
+Answer: Participant didn't answer
+
+Question: While playing, I do everything I can to avoid loss.
+Answer: Participant didn't answer
+
+Question: 7. Job security is an important factor for me in any job search. ////
+Answer: Participant didn't answer
+
+Question: While playing, I focus my attention on avoiding failure.
+Answer: Participant didn't answer
+
+Question: I am very careful to avoid exposing myself to potential losses whhile playing games.
+Answer: Participant didn't answer
+
+Question: I take chances in game to maximize my goals for advancement. 
+Answer: Participant didn't answer
+
+Question: I tend to take risks while playing in order to achieve success.
+Answer: Participant didn't answer
+
+Question: If I had an opportunity to participate on a high-risk, high-reward raid or instanced dungeon I would definitely take it.
+Answer: Participant didn't answer
+
+Question: 13. If my job did not allow for advancement, I would likely find a new one. 
+Answer: Participant didn't answer
+
+Question: A chance to improve my skills or grow is an important factor for me when looking for a job to play in a MMO.
+Answer: Participant didn't answer
+
+Question: I focus on accomplishing Quests that will further my advancement.
+Answer: Participant didn't answer
+
+Question: I spend a great deal of time envisioning how to fulfill my aspirations.
+Answer: Participant didn't answer
+
+Question: My in game priorities are impacted by a clear picture of what I aspire to be.
+Answer: Participant didn't answer
+
+Question: While playing I'm motivated by my hopes and aspirations.
+Answer: Participant didn't answer
+
+Question: Exploring to see what you can find.
+Answer: Participant didn't answer
+
+Question: Frantically escaping from a terrifying foe.
+Answer: Participant didn't answer
+
+Question: Working out how to crack a challenging puzzle.
+Answer: Participant didn't answer
+
+Question: The struggle to defeat a difficult boss.
+Answer: Participant didn't answer
+
+Question: Playing in a group, online or in the same room.
+Answer: Participant didn't answer
+
+Question: Responding quickly to an exciting situation.
+Answer: Participant didn't answer
+
+Question: Picking up every single collectible in an area.
+Answer: Participant didn't answer
+
+Question: Looking around just to enjoy the scenery.
+Answer: Participant didn't answer
+
+Question: Being in control at high speed.
+Answer: Participant didn't answer
+
+Question: Devising a promising strategy when deciding what to try next.
+Answer: Participant didn't answer
+
+Question: Feeling relief when you escape to a safe area.
+Answer: Participant didn't answer
+
+Question: Taking on a strong opponent when playing against a human player in a versus match.
+Answer: Participant didn't answer
+
+Question: Talking with other players, online or in the same room.
+Answer: Participant didn't answer
+
+Question: Finding what you need to complete a collection.
+Answer: Participant didn't answer
+
+Question: Hanging from a high ledge.
+Answer: Participant didn't answer
+
+Question: Wondering what's behind a locked door.
+Answer: Participant didn't answer
+
+Question: Feeling scared, terrified or disturbed.
+Answer: Participant didn't answer
+
+Question: Working out what to do on your own.
+Answer: Participant didn't answer
+
+Question: Completing a punishing challenge after failing many times.
+Answer: Participant didn't answer
+
+Question: Co-operating with strangers.
+Answer: Participant didn't answer
+
+Question: Getting 100% (completing everything in a game).
+Answer: Participant didn't answer
+
+// Brain Hex Page 3
+
+Question: A moment of jaw-dropping wonder or beauty.
+Answer: Participant didn't answer
+
+Question: An experience of primeval terror that blows your mind.
+Answer: Participant didn't answer
+
+Question: A moment of breathtaking speed or vertigo.
+Answer: Participant didn't answer
+
+Question: The moment when the solution to a difficult puzzle clicks in your mind.
+Answer: Participant didn't answer
+
+Question: A moment of hard-fought victory.
+Answer: Participant didn't answer
+
+Question: A moment when you feel an intense sense of unity with another player.
+Answer: Participant didn't answer
+
+Question: A moment of completeness that you have strived for.
+Answer: Participant didn't answer
+
+// Post Regulatory focus questions
+
+Question 1: Question 1:
+Answer: 5
+
+Question 2: Question 2:
+Answer: 2
+
+Question 3: Question 3:
+Answer: 4
+
+Question 4: Question 4:
+Answer: 1
+
+Question 5: Question 5:
+Answer: 3
+
+Question 6: Question 6:
+Answer: 4
+
+Question 7: Question 7:
+Answer: 2
+
+Question 8: Question 8:
+Answer: 1
+
+Question 9: Question 9:
+Answer: 4
+
+Question 10: Question 10:
+Answer: 4
+
+// End of questions
+
+Number of answers per ID:
+Answer ID 1: 2// Answer ID 2: 2// Answer ID 3: 1// Answer ID 4: 4// Answer ID 5: 0
+
+Time taken to finish test: 1:50

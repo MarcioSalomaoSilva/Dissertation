@@ -1,0 +1,27 @@
+Please rate each videogame experience listed. please rate the following sentences from 1, for experiences you enjoy to 5 for experiences you would rather avoid.
+Exploring to see what you can find.
+Frantically escaping from a terrifying foe.
+Working out how to crack a challenging puzzle.
+The struggle to defeat a difficult boss.
+Playing in a group, online or in the same room.
+Responding quickly to an exciting situation.
+Picking up every single collectible in an area.
+Looking around just to enjoy the scenery.
+Being in control at high speed.
+Devising a promising strategy when deciding what to try next.
+Feeling relief when you escape to a safe area.
+Taking on a strong opponent when playing against a human player in a versus match.
+Talking with other players, online or in the same room.
+Finding what you need to complete a collection.
+Hanging from a high ledge.
+Wondering what's behind a locked door.
+Feeling scared, terrified or disturbed.
+Working out what to do on your own.
+Completing a punishing challenge after failing many times.
+Co-operating with strangers.
+Getting 100% (completing everything in a game).
+ 1 (Enjoy)
+ 2
+ 3 (Indifferent)
+ 4
+ 5 (Avoid)

@@ -1,0 +1,26 @@
+The following questions have a more pronounced multiplayer focus, even if you don't usually play these types of games please rate the following sentences from 1 (strongly agree) to 5 (strongly disagree). 
+I concentrate on obtaining the best gear in the game before progressing the main quest in order to increase my chances of survival.
+In a team game I focus my attention on completing the role that my character is best suited to.
+Fulfilling my Guild duties such as mastering a character or skill is very important to me.
+In game, I strive to live up to the responsibilities and duties given to me by others.
+In game, I'm often focused on accomplishing tasks that will support my need for security.
+While playing, I do everything I can to avoid loss.
+7. Job security is an important factor for me in any job search. ////
+While playing, I focus my attention on avoiding failure.
+I am very careful to avoid exposing myself to potential losses whhile playing games.
+I take chances in game to maximize my goals for advancement. 
+I tend to take risks while playing in order to achieve success.
+If I had an opportunity to participate on a high-risk, high-reward raid or instanced dungeon I would definitely take it.
+13. If my job did not allow for advancement, I would likely find a new one. 
+A chance to improve my skills or grow is an important factor for me when looking for a job to play in a MMO.
+I focus on accomplishing Quests that will further my advancement.
+I spend a great deal of time envisioning how to fulfill my aspirations.
+My in game priorities are impacted by a clear picture of what I aspire to be.
+While playing I'm motivated by my hopes and aspirations.
+ 1(Agree)
+ 2
+ 3(Neither)
+ 4
+ 5(Disagree)
+
+this doesnt translate one to one to game systems
