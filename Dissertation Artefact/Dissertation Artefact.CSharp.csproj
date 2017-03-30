@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -70,9 +67,6 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
     </Reference>
@@ -86,10 +80,6 @@
     <Compile Include="Assets\Scripts\Variable_Manager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Positive Priming\11199.txt" />
-    <None Include="Assets\Positive Priming\23981.txt" />
-    <None Include="Assets\Positive Priming\34331.txt" />
-    <None Include="Assets\Resources\Answers.txt" />
     <None Include="Assets\Resources\Ethics Form.txt" />
     <None Include="Assets\Resources\Hex_Page1.txt" />
     <None Include="Assets\Resources\Hex_Page2.txt" />
@@ -97,8 +87,8 @@
     <None Include="Assets\Resources\Negative.txt" />
     <None Include="Assets\Resources\Positive.txt" />
     <None Include="Assets\Resources\PreRegulatoryFocus.txt" />
-    <None Include="Assets\Resources\Questions.txt" />
-    <None Include="Assets\Resources\oldPreRegulatoryFocus.txt" />
+    <None Include="Assets\Resources\QuestionsOne.txt" />
+    <None Include="Assets\Resources\QuestionsTwo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

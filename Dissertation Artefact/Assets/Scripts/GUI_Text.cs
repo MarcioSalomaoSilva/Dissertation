@@ -12,17 +12,18 @@ public class GUI_Text : MonoBehaviour {
     bool headerPage3;
     bool headerPage2;
     bool headerPage1;
-    string txtQuestions = "Questions";
+    bool headerPage4;
+    //
+    string txtQuestionsOne = "QuestionsOne";
+    string txtQuestionsTwo = "QuestionsTwo";
     string txtContentsQuestions;
-    string txtAnswers = "Answers";
-    string txtContentsAnswers;
     string txtEthics = "Ethics Form";
     string txtContentsEthics;
     string txtPrimingPositive = "Positive";
     string txtPrimingNegative = "Negative";
     string txtContentsPriming;
-    string txtPreRegulatory = "PreRegulatoryFocus";
-    string txtContentsPreRegulatory;
+    string txtRegulatory = "PreRegulatoryFocus";
+    string txtContentsRegulatory;
     string txtHexPage1 = "Hex_Page1";
     string txtContentsHexPage1;
     string txtHexPage2 = "Hex_Page2";
@@ -34,12 +35,12 @@ public class GUI_Text : MonoBehaviour {
     [HideInInspector]
     string writePath;
     [Header("Text Files")]
-    public List<string> questionList = new List<string>();
+    public List<string> questionsList = new List<string>();
     public List<string> answerList = new List<string>();
     public List<int> answerIDList = new List<int>();
     public List<string> ethicsList = new List<string>();
     public List<string> primingList = new List<string>();
-    public List<string> PreRegulatoryList = new List<string>();
+    public List<string> regulatoryList = new List<string>();
     public List<string> HexPage1List = new List<string>();
     public List<string> HexPage2List = new List<string>();
     public List<string> HexPage3List = new List<string>();
@@ -58,9 +59,17 @@ public class GUI_Text : MonoBehaviour {
     }
     public void CreateFile() {
         if (GUI_Manager.instance.test == true) {
-            writePath = Application.dataPath + "/Positive Priming/" + participantNumber + ".txt";
+            if (GUI_Manager.instance.test2 == true) {
+                writePath = Application.dataPath + "/Positive Priming/First Iteration/" + participantNumber + ".txt";
+            } else {
+                writePath = Application.dataPath + "/Positive Priming/Second Iteration/" + participantNumber + ".txt";
+            }
         } else {
-            writePath = Application.dataPath + "/Negative Priming/" + participantNumber + ".txt";
+            if (GUI_Manager.instance.test2 == true) {
+                writePath = Application.dataPath + "/Negative Priming/First Iteration/" + participantNumber + ".txt";
+            } else {
+                writePath = Application.dataPath + "/Negative Priming/Second Iteration/" + participantNumber + ".txt";
+            }
         }
         if (!File.Exists(writePath)) {
             writer = File.CreateText(writePath) ;
@@ -110,19 +119,19 @@ public class GUI_Text : MonoBehaviour {
         writer.WriteLine("Answer: " + attitude);
         writer.WriteLine("");
     }
-    public void WritePreRegulatoryFocus(string recieved, int num) {
+    public void WriteRegulatoryFocus(string recieved, int num) {
         if (headerPage2 == false) {
             writer.WriteLine("// Pre-Regulatory focus");
             headerPage2 = true;
         }
         writer.WriteLine("");
-        writer.WriteLine("Question: " + PreRegulatoryList[num]);
+        writer.WriteLine("Question: " + regulatoryList[num]);
         writer.WriteLine("Answer: " + recieved);
     }
     public void WriteHexPage2(string recieved, int num) {
-        if (headerPage2 == false) {
+        if (headerPage4 == false) {
             writer.WriteLine("// Brain Hex Page 2");
-            headerPage2 = true;
+            headerPage4 = true;
         }
         writer.WriteLine("");
         writer.WriteLine("Question: " + HexPage2List[num]);
@@ -138,64 +147,50 @@ public class GUI_Text : MonoBehaviour {
         writer.WriteLine("Question: " + HexPage3List[num]);
         writer.WriteLine("Answer: " + recieved);
     }
-    public void WritePostRegulatoryFocus(string question, string answer, int questionID, int answerID) {
+    public void WritePreMoralQuestions(Answer_Data data, int id) {
         if (headerPage1 == false) {
             writer.WriteLine("");
-            writer.WriteLine("// Post Regulatory focus questions");
+            writer.WriteLine("// Pre-Moral Questions");
             writer.WriteLine("");
             headerPage1 = true;
         }
-        answerIDList.Add(answerID);
-        writer.WriteLine("Question " + GUI_Manager.instance.currentQuestionID + ": " + question);
-        writer.WriteLine("Answer: " + answer);
+        writer.WriteLine("Question: " + id);
+        writer.WriteLine("Answer: " + data.answer);
+        writer.WriteLine("");
+    }
+    public void WritePostMoralQuestions(Answer_Data data, int id) {
+        if (headerPage1 == true) {
+            writer.WriteLine("");
+            writer.WriteLine("// Post-Moral Questions");
+            writer.WriteLine("");
+            headerPage1 = false;
+        }
+        writer.WriteLine("Question: " + id);
+        writer.WriteLine("Answer: " + data.answer);
         writer.WriteLine("");
     }
     public void CloseFile() {
+        writer.WriteLine("");
         writer.WriteLine("// End of questions");
         writer.WriteLine("");
-        int ones = 0;
-        int twos = 0;
-        int threes = 0;
-        int fours = 0;
-        int fives = 0;
-        for(int i = 1; i < answerIDList.Count; i++ ) {
-            if(answerIDList[i] == 1) {
-                ones += 1;
-            }
-            if (answerIDList[i] == 2) {
-                twos += 1;
-            }
-            if (answerIDList[i] == 3) {
-                threes += 1;
-            }
-            if (answerIDList[i] == 4) {
-                fours += 1;
-            }
-            if (answerIDList[i] == 5) {
-                fives += 1;
-            }
-        }
-        writer.WriteLine("Number of answers per ID:");
-        writer.WriteLine("Answer ID 1: " + ones + "// Answer ID 2: " + twos + "// Answer ID 3: " + threes + "// Answer ID 4: " + fours + "// Answer ID 5: " + fives);
         int minutes = Mathf.FloorToInt(Time.time / 60F);
         int seconds = Mathf.FloorToInt(Time.time - minutes * 60);
         string niceTime = string.Format("{0:0}:{1:00}", minutes, seconds);
-        writer.WriteLine("");
         writer.WriteLine("Time taken to finish test: " + niceTime);
+        writer.WriteLine("");
         writer.Close();
     }
     public void ReadFromTXT() {
-        TextAsset txtAssetAnswers = (TextAsset)Resources.Load(txtAnswers);
-        txtContentsAnswers = txtAssetAnswers.text;
-        string[] linesInAnswers = txtContentsAnswers.Split('\n');
-        foreach (string Answer in linesInAnswers) {
-            answerList.Add(Answer);
+        TextAsset txtAssetQuestions;
+        if (GUI_Manager.instance.test2) {
+            txtAssetQuestions = (TextAsset)Resources.Load(txtQuestionsOne);
+        } else {
+            txtAssetQuestions = (TextAsset)Resources.Load(txtQuestionsOne);
         }
-        TextAsset txtAssetQuestions = (TextAsset)Resources.Load(txtQuestions);
         txtContentsQuestions = txtAssetQuestions.text;
-        string[] linesInQuestions = txtContentsQuestions.Split('\n');
+        string[] linesInQuestions = txtContentsQuestions.Split('^');
         foreach (string line in linesInQuestions) {
-            questionList.Add(line);
+            questionsList.Add(line);
         }
         TextAsset txtAssetEthics = (TextAsset)Resources.Load(txtEthics);
         txtContentsEthics = txtAssetEthics.text;
@@ -232,11 +227,11 @@ public class GUI_Text : MonoBehaviour {
         foreach (string line in linesInHexPage3) {
             HexPage3List.Add(line);
         }
-        TextAsset txtAssetPreRegulatory = (TextAsset)Resources.Load(txtPreRegulatory);
-        txtContentsPreRegulatory = txtAssetPreRegulatory.text;
-        string[] linesInPreRegulatory = txtContentsPreRegulatory.Split('\n');
+        TextAsset txtAssetPreRegulatory = (TextAsset)Resources.Load(txtRegulatory);
+        txtContentsRegulatory = txtAssetPreRegulatory.text;
+        string[] linesInPreRegulatory = txtContentsRegulatory.Split('\n');
         foreach (string line in linesInPreRegulatory) {
-            PreRegulatoryList.Add(line);
+            regulatoryList.Add(line);
         }
     }
 }
